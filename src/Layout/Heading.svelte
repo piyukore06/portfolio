@@ -20,10 +20,11 @@ import { fade } from 'svelte/transition'
  .overlay {
    z-index: 999;
    background-color: var(--bg);
-   left: 100px;
    top: var(--frameHeight);
    position: fixed;
-   transform: translateY(-50%);
+   left: 50%;
+   width: 255px;
+   transform: translate(-50%, -50%);
  }
 </style>
 
