@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Maitree');
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+	font-family: MyFont;
+	src: url(./tomatoes.ttf) format('truetype');
+}
+
+svg {
+	height: 25px;
+	width: 25px;
+	margin: 0px 5px;
+}
+
+body {
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: Quicksand;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	--textLink: #d23669;
+	--hr: rgba(0,0,0,0.2);
+	--inlineCode-bg: rgba(255,229,100,0.2);
+	--inlineCode-text: #1a1a1a;
+	--frameHeight: 50px;
+	--lightBg: #fff;
+	--lightText: #222;
+	--fancy1Bg: #2CA88D;
+	--fancy1Text: #133743;
+	--darkBg: #282c35;
+	color: var(--textNormal);
+	background: var(--bg);
+}
+
+body.fancy1 {
+	--bg: var(--fancy1Bg);
+	--textNormal: var(--fancy1Text);
+}
+body {
+	--bg: var(--lightBg);
+	--textNormal: var(--lightText);
+}
+body.dark {
+	--bg: var(--darkBg);
+	--textNormal: var(--lightBg);
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	position: relative;
+	-webkit-text-decoration-skip: objects;
+	color: var(--textNormal);
+  }
+  a:active,
+  a:hover,
+  a:visited {
+	outline-width: 0;
+	text-decoration: none;
+	color: var(--textNormal);
+  }
+  a:active {
+	font-weight: bold;
+  }
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+input[type="range"] {
+	height: 0;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
