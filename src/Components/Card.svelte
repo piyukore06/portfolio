@@ -4,7 +4,11 @@ export let item
 
 <style>
     section {
-        border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+        padding: 10px;
+        transition: 0.5s ease all;
+    }
+    section:hover {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
     .heading {
         font-weight: 100;
@@ -19,14 +23,34 @@ export let item
             ) 1 100%;
         border-color: #642B73;  /* fallback for old browsers */
     }
-    a:last-child {
-        border-width: 0;
+    .secondary {
+        color: rgba(34, 34, 34, 0.5);
+        font-size: 13px;
+    }
+    .secondary > a {
+        color: rgba(34, 34, 34, 0.5);
     }
 </style>
 
 <a href={item.path} target="_blank" rel="noopener noreferrer">
     <section>
-        <h3 class="heading">{item.heading}</h3>
+        <div class="heading">
+            <h3>{item.heading}</h3>
+            {#if item.links}
+                {#each item.links as { path, name, prefix }, i}
+                    <div class="secondary">
+                        {prefix}
+                        {#if path !== '#'}
+                        <a class="normal-link" target="_blank" href={path}>
+                            {name}
+                        </a>
+                        {:else}
+                        {name}
+                        {/if}
+                    </div>
+                {/each}
+            {/if}
+        </div>
         <p>{item.description}</p>
     </section>
 </a>

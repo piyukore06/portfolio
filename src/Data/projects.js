@@ -13,5 +13,5 @@ export default [
         path: 'https://emoji-gifs.netlify.com',
         heading: 'Make Gifs from your favorite emoticons',
         description: 'Coming Soon',
-    }
+    },
   ]
