@@ -27,7 +27,7 @@ nav {
   padding: 2.625rem 1.3125rem;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 </style>
 <Social></Social>
