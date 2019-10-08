@@ -2,7 +2,7 @@ export default [
     {
       path: 'https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/265064533/',
       heading: 'Debugging Web Performance with Chrome dev tools',
-      description: 'Performance is about retaining users, improving conversions, user experience. It is about people. DevTools performance tab as well as some hidden gems that you probably had no idea existed.',
+      description: `Performance is about retaining users, improving conversions, user experience. It's about people. DevTools performance tab as well as some hidden gems that you probably had no idea existed.`,
     },
     {
       path: 'https://www.meetup.com/NgNiederrhein/events/263357671/',
@@ -12,7 +12,7 @@ export default [
     {
         path: 'https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/258189377/',
         heading: 'Rest to GraphQL',
-        description: 'Frontend App APIs often gets complex as the application grows. Often there are multiple round trips required to fetch data for a view. It is a novel way of structuring the client-server contract',
+        description: 'Frontend App APIs often gets complex as the application grows. Often there are multiple round trips required to fetch data for a view. It is a novel way of structuring the client-server contract.',
     },
     {
         path: 'https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/252665300/',

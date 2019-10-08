@@ -9,4 +9,8 @@
 }
 </style>
 <div class="avatar"></div>
-<p>Hi! My name is Priyanka. I am a front-end Developer, Patterns and Frameworks enthusiast. All things Performance</p>
+<p>
+Hi! My name is Priyanka. I am a front-end Developer. Patterns and Frameworks enthusiast. All things Performance.
+Currently working on
+<a target="_blank" class="normal-link" href="https://photoeditorsdk.com"> Photo Editor SDK</a> at <a target="_blank" class="normal-link" href="https://img.ly"> img.ly</a>
+</p>

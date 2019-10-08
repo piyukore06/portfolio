@@ -22,10 +22,15 @@ import { fade } from 'svelte/transition'
    background-color: var(--bg);
    top: var(--frameHeight);
    position: fixed;
-   left: 50%;
+   left: 190px;
    width: 255px;
    transform: translate(-50%, -50%);
  }
+ @media screen and (max-width: 480px) {
+ .overlay {
+    left: 50%;
+ }
+}
 </style>
 
 <div class="overlay">

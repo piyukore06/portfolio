@@ -77,6 +77,12 @@ a {
 	text-decoration: none;
 	color: var(--textNormal);
   }
+  .normal-link {
+	border-bottom: 1px solid rgba(34, 34, 34, 0.2);
+  }	
+  .normal-link:hover {
+	border-bottom: 1px solid rgba(34, 34, 34, 0.5);
+  }
   a:active {
 	font-weight: bold;
   }
