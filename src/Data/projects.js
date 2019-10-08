@@ -9,9 +9,4 @@ export default [
         heading: 'Generative Art',
         description: `"Generative art" often refers to algorithmic art (algorithmically determined computer generated artwork), but artists can also make it using systems of chemistry, biology, mechanics and robotics, smart materials, manual randomization, mathematics, data mapping, symmetry, tiling, and more.`,
     },
-    {
-        path: 'https://emoji-gifs.netlify.com',
-        heading: 'Make Gifs from your favorite emoticons',
-        description: 'Coming Soon',
-    },
   ]
