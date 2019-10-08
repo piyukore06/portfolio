@@ -10,7 +10,7 @@
 </script>
 <style>
 .padding {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 nav {
   margin: 0 auto;
@@ -27,6 +27,7 @@ nav {
   padding: 2.625rem 1.3125rem;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 </style>
 <Social></Social>
@@ -42,6 +43,5 @@ nav {
 <div class="container">
   <Route />
 </div>
-<div class="padding"></div>
 
 <Bottom></Bottom>
