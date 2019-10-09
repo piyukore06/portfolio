@@ -1,9 +1,14 @@
+import { calendar, location } from './icons'
 export default [
     {
       path: 'https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/265064533/',
       heading: 'Debugging Web Performance with Chrome dev tools',
       links: [{
-        prefix: 'at',
+        prefix: calendar,
+        name: 'Oct 16, 2019',
+        path: `#`
+      }, {
+        prefix: location,
         name: 'SWK Ruhr',
         path: `https://twitter.com/swk_ruhr`
       }],
@@ -13,7 +18,11 @@ export default [
       path: 'https://www.meetup.com/NgNiederrhein/events/263357671/',
       heading: 'Keep calm and refactor',
       links: [{
-        prefix: 'at',
+        prefix: calendar,
+        name: 'Aug 13, 2019',
+        path: `#`
+      }, {
+        prefix: location,
         name: 'Ng Niederrhein',
         path: `https://twitter.com/NgNiederrhein`
       }],
@@ -23,7 +32,11 @@ export default [
         path: 'https://github.com/piyukore06/graphql',
         heading: 'Rest to GraphQL',
         links: [{
-          prefix: 'at',
+          prefix: calendar,
+          name: 'Mar 20, 2019',
+          path: `#`
+        }, {
+          prefix: location,
           name: 'SWK Ruhr',
           path: `https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/258189377/`
         }],
@@ -33,17 +46,25 @@ export default [
         path: 'http://parceljs-new-kid-on-the-block.surge.sh',
         heading: 'Parcel JS',
         links: [{
-          prefix: 'at',
+          prefix: calendar,
+          name: 'Oct 17, 2018',
+          path: `#`
+        }, {
+          prefix: location,
           name: 'SWK Ruhr',
           path: `https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/252665300/`
         }],
-        description: 'Frontend tooling just keeps getting better🛠. Module bundlers can do so much for you. Be it providing you with a wonderful dev 😇 experience or optimizing your production build 👩🎤.'
+        description: 'Frontend tooling just keeps getting better. Module bundlers can do so much for you. Be it providing you with a wonderful dev experience or optimizing your production build.'
     },
     {
         path: 'http://introduction-cypress-js.surge.sh',
         heading: 'Cypress JS: E2E done right',
         links: [{
-          prefix: 'at',
+          prefix: calendar,
+          name: 'Aug 23, 2018',
+          path: `#`
+        }, {
+          prefix: location,
           name: 'Mehrkanal GmbH',
           path: `http://mehrkanal.com/`
         }],
@@ -53,7 +74,11 @@ export default [
       path: 'https://github.com/piyukore06/create-a-webpack-plugin',
       heading: 'Writing your own webpack plugin',
       links: [{
-        prefix: 'at',
+        prefix: calendar,
+        name: 'Feb 19, 2018',
+        path: `#`
+      }, {
+        prefix: location,
         name: 'Mehrkanal GmbH',
         path: `http://mehrkanal.com/`
       }],

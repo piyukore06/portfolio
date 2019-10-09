@@ -1,6 +1,6 @@
 import Home from '../Pages/Intro.svelte';
-import Writing from '../Pages/Writing.svelte';
-import Speaking from '../Pages/Speaking.svelte';
+import Blog from '../Pages/Blog.svelte';
+import Talks from '../Pages/Talks.svelte';
 import Work from '../Pages/Work.svelte';
 
 export default [
@@ -10,14 +10,14 @@ export default [
     component: Home,
   },
   {
-    path: '/writing',
-    name: 'Writing',
-    component: Writing,
+    path: '/blog',
+    name: 'Blog',
+    component: Blog,
   },
   {
-    path: '/speaking',
-    name: 'Speaking',
-    component: Speaking,
+    path: '/talks',
+    name: 'Talks',
+    component: Talks,
   },
   {
     path: '/work',

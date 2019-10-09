@@ -1,3 +1,7 @@
+<script>
+    import blog from '../Data/blog.js'
+    let latest = blog[0]
+</script>
 <style>
 .avatar {
     height: 200px;
@@ -15,13 +19,16 @@
 </style>
 <div class="avatar"></div>
 <p>
-Hi! My name is Priyanka. I am a front-end Developer.
-Curiosity is my middlename. I am a big frameworks and patterns enthusiast.
-Presently diving deep into how web works, focusing on all things Performance.
+Hi! My name is Priyanka. I am a front-end Developer, preoccupied with finding simplest solutions.
+I'm passionate about bringing people together to build great things and using <a class="normal-link" target="_blank" href="https://www.swyx.io/writing/learn-in-public">Learn in Public</a> to share knowledge. 
+Presently diving deep into how web works, fancying all things Performance.
 <br />
 <br />
 Currently working on
-<a target="_blank" class="normal-link" href="https://photoeditorsdk.com"> Photo Editor SDK</a> at <a target="_blank" class="normal-link" href="https://img.ly"> img.ly</a>
+<a class="normal-link" target="_blank" href="https://photoeditorsdk.com"> Photo Editor SDK</a> at <a target="_blank" class="normal-link" href="https://img.ly"> img.ly</a>
+<br>
+<br>
+Latest Post:  <a class="normal-link" target="_blank" href={latest.path}> {latest.heading}</a>
 <br>
 <br>
 <a class="credit normal-link" target="_blank" href="https://icons8.com">illustration by Ouch.pics</a>

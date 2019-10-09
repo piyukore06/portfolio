@@ -27,7 +27,14 @@ nav {
   padding: 2.625rem 1.3125rem;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.copyright {
+  font-size: 12px;
+  position: fixed;
+  bottom: calc(var(--frameHeight) - 20px);
+  left: 30px;
+  z-index: 1000;
 }
 </style>
 <Social></Social>
@@ -37,11 +44,11 @@ nav {
 <nav>
   <Link page={{path: '/', name: 'About'}} />
   <Link page={{path: '/work', name: 'Work'}} />
-  <Link page={{path: '/writing', name: 'Writing'}} />
-  <Link page={{path: '/speaking', name: 'Speaking'}} />
+  <Link page={{path: '/blog', name: 'Blog'}} />
+  <Link page={{path: '/talks', name: 'Talks'}} />
 </nav>
 <div class="container">
   <Route />
 </div>
-
+<div class="copyright">© 2019 Priyanka Kore</div>
 <Bottom></Bottom>

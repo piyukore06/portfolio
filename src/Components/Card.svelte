@@ -4,7 +4,7 @@ export let item
 
 <style>
     section {
-        padding: 10px;
+        padding: 15px;
         transition: 0.5s ease all;
     }
     section:hover {
@@ -26,9 +26,20 @@ export let item
     .secondary {
         color: rgba(34, 34, 34, 0.5);
         font-size: 13px;
+        display: inline-flex;
     }
     .secondary > a {
         color: rgba(34, 34, 34, 0.5);
+        margin-right: 10px;
+    }
+    .icon {
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        padding-right: 5px;
+    }
+    .span {
+        margin-right: 10px;
     }
 </style>
 
@@ -39,13 +50,13 @@ export let item
             {#if item.links}
                 {#each item.links as { path, name, prefix }, i}
                     <div class="secondary">
-                        {prefix}
+                        <img class="icon" src={prefix} alt="icon" />
                         {#if path !== '#'}
                         <a class="normal-link" target="_blank" href={path}>
                             {name}
                         </a>
                         {:else}
-                        {name}
+                        <span class="span">{name}</span>
                         {/if}
                     </div>
                 {/each}
