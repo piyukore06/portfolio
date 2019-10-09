@@ -36,7 +36,7 @@ export let item
         display: inline-block;
         height: 16px;
         width: 16px;
-        padding-right: 5px;
+        padding-right: 4px;
     }
     .span {
         margin-right: 10px;
