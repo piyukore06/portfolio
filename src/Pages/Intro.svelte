@@ -1,5 +1,7 @@
 <script>
     import blog from '../Data/blog.js'
+    import talks from '../Data/talks.js'
+    const upcoming = talks.map((t) => ({...t, date: t.links[0].name})).filter((d) => (new Date() < new Date(d.date)))[0]
     let latest = blog[0]
 </script>
 <style>
@@ -31,5 +33,10 @@ Currently working on
 Latest Post:  <a class="normal-link" target="_blank" href={latest.path}> {latest.heading}</a>
 <br>
 <br>
+{#if upcoming}
+Upcoming Talk:  <a class="normal-link" target="_blank" href={upcoming.path}> {upcoming.heading}</a>
+<br>
+<br>
+{/if}
 <a class="credit normal-link" target="_blank" href="https://icons8.com">illustration by Ouch.pics</a>
 </p>
