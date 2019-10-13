@@ -1,7 +1,7 @@
 <script>
     import blog from '../Data/blog.js'
     import talks from '../Data/talks.js'
-    const upcoming = talks.map((t) => ({...t, date: t.links[0].name})).filter((d) => (new Date() < new Date(d.date)))[0]
+    const upcoming = talks.map((t) => ({...t, date: t.links[0].name})).filter((d) => (new Date() < new Date(d.date)))
     let latest = blog[0]
 </script>
 <style>
@@ -18,6 +18,9 @@
 .credit {
     font-size: 12px;
 }
+.new {
+   font-size: 0.8em; 
+}
 </style>
 <div class="avatar"></div>
 <p>
@@ -30,11 +33,15 @@ Currently working on
 <a class="normal-link" target="_blank" href="https://photoeditorsdk.com"> Photo Editor SDK</a> at <a target="_blank" class="normal-link" href="https://img.ly"> img.ly</a>
 <br>
 <br>
-Latest Post:  <a class="normal-link" target="_blank" href={latest.path}> {latest.heading}</a>
+Latest Post:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
 <br>
 <br>
 {#if upcoming}
-Upcoming Talk:  <a class="normal-link" target="_blank" href={upcoming.path}> {upcoming.heading}</a>
+Upcoming Talks:  
+{#each upcoming as { path, heading }, i}
+<a class="normal-link new" target="_blank" href={path}> {'  '} {heading}</a>
+{i === upcoming.length - 1 ? '' : ','}
+{/each}
 <br>
 <br>
 {/if}

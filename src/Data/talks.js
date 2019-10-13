@@ -1,5 +1,33 @@
 import { calendar, location } from './icons'
 export default [
+  {
+    path: 'https://ng-ind.com',
+    heading: 'Get you some #PerfCred',
+    links: [{
+      prefix: calendar,
+      name: 'Feb 29, 2020',
+      path: `#`
+    }, {
+      prefix: location,
+      name: 'Ng India',
+      path: `https://ng-ind.com`
+    }],
+    description: `Why performance is important? and how to go about it`,
+  },
+  {
+    path: 'https://frontendfreunde.ms/#talks',
+    heading: 'EcmaScript 2019 and beyond: A taste of future',
+    links: [{
+      prefix: calendar,
+      name: 'Nov 21, 2019',
+      path: `#`
+    }, {
+      prefix: location,
+      name: 'Frontend Freunde',
+      path: `https://frontendfreunde.ms`
+    }],
+    description: `ES2015 was a big leap. ES2016 and 2017 had some interesting nuggets. Some of the really long awaited features landed in ES2019 and roadmap for ES2020 and beyond looks stellar. Let's go through the whirlwind of new and shiny features of EcmaScript (already landed, approved and some interesting ones but not approved yet). How the browser support looks like and how it'll make our lives easier :)`,
+  },
     {
       path: 'https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/265064533/',
       heading: 'Debugging Web Performance with Chrome dev tools',
