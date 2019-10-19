@@ -3,6 +3,8 @@
     import talks from '../Data/talks.js'
     const upcoming = talks.map((t) => ({...t, date: t.links[0].name})).filter((d) => (new Date() < new Date(d.date)))
     let latest = blog[0]
+
+    import Paintings from '../Components/Painting.svelte'
 </script>
 <style>
 .avatar {
@@ -45,5 +47,7 @@ Upcoming Talks:
 <br>
 <br>
 {/if}
+<Paintings />
+
 <a class="credit normal-link" target="_blank" href="https://icons8.com">illustration by Ouch.pics</a>
 </p>

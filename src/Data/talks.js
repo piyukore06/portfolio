@@ -29,7 +29,7 @@ export default [
     description: `ES2015 was a big leap. ES2016 and 2017 had some interesting nuggets. Some of the really long awaited features landed in ES2019 and roadmap for ES2020 and beyond looks stellar. Let's go through the whirlwind of new and shiny features of EcmaScript (already landed, approved and some interesting ones but not approved yet). How the browser support looks like and how it'll make our lives easier :)`,
   },
     {
-      path: 'https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/265064533/',
+      path: 'https://www.slideshare.net/piyukore06/debugging-perf-with-devtools-184030862',
       heading: 'Debugging Web Performance with Chrome dev tools',
       links: [{
         prefix: calendar,
@@ -38,7 +38,7 @@ export default [
       }, {
         prefix: location,
         name: 'SWK Ruhr',
-        path: `https://twitter.com/swk_ruhr`
+        path: `https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/265064533/`
       }],
       description: `Performance is about retaining users, improving conversions, user experience. It's about people. DevTools performance tab as well as some hidden gems that you probably had no idea existed.`,
     },
