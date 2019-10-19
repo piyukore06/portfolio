@@ -3,37 +3,81 @@
 </script>
 <style>
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
-  grid-gap: 20px;
-  align-items: stretch;
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.image {
-  border-radius: 4px;
+.column {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.column img {
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-  height: 245px;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 85%;
   border: 15px solid transparent;
-  
 }
-.img {
-  border-radius: 4px;
-  width: inherit;
-  height: inherit;
-  background-repeat: no-repeat;
-  background-size: contain;
+.show-mobile {
+  display: none;
 }
+.hide-mobile {
+  display: flex;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 46%;
+    flex: 46%;
+    max-width: 46%;
+  }
+  .show-mobile {
+    display: flex;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .column img {
+    border-width: 10px;
+  }
+}
+
 </style>
 <br>
 Sometimes, I try and splatter colors on a canvas...
 <br>
 <br>
-<div class="grid-container">
-{#each imgs as img, i}
-    <div class="image">
-        <div class="img" style={`background-image: url(` + img + `)`}></div>
-    </div>
-{/each}
+<div class="row hide-mobile">
+  <div class="column">
+    <img src="0.jpg" alt="">
+    <img src="1.jpg" alt="">
+  </div>
+  <div class="column">
+    <img src="3.jpg" alt="">
+    <img src="4.jpg" alt="">
+  </div>
+   <div class="column">
+    <img src="2.jpg" alt="">
+    <img src="5.jpg" alt="">
+  </div>
+</div>
+<div class="row show-mobile">
+  <div class="column">
+    <img src="0.jpg" alt="">
+    <img src="1.jpg" alt="">
+    <img src="3.jpg" alt="">
+  </div>
+   <div class="column">
+    <img src="4.jpg" alt="">
+    <img src="2.jpg" alt="">
+    <img src="5.jpg" alt="">
+  </div>
 </div>
 <br>
