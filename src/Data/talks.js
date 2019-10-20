@@ -2,7 +2,7 @@ import { calendar, location } from './icons'
 export default [
   {
     path: 'https://ng-ind.com',
-    heading: 'Perormance as an afterthought?',
+    heading: 'Performance as an afterthought?',
     links: [{
       prefix: calendar,
       name: 'Feb 29, 2020',
