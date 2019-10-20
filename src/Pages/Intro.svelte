@@ -12,7 +12,7 @@
     width: 200px;
     border-radius: 50%;
     background-image: url(./avatar.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: -15px -15px;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -27,8 +27,8 @@
 <div class="avatar"></div>
 <p>
 Hi! My name is Priyanka. I am a front-end Developer, preoccupied with finding simplest solutions.
-I'm passionate about bringing people together to build great things and using <a class="normal-link" target="_blank" href="https://www.swyx.io/writing/learn-in-public">Learn in Public</a> to share knowledge. 
-Presently diving deep into how web works, fancying all things Performance.
+I'm passionate about bringing people together to build products with good user eperience and using <a class="normal-link" target="_blank" href="https://www.swyx.io/writing/learn-in-public">Learn in Public</a> to share knowledge. 
+Presently diving deep into how web works, fancying all things Web Performance.
 <br />
 <br />
 Currently working on
