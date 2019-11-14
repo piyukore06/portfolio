@@ -2,7 +2,7 @@ import { calendar, location } from './icons'
 export default [
   {
     path: 'https://ng-ind.com',
-    heading: 'Performance as an afterthought?',
+    heading: 'Get you some #PerfCred?',
     links: [{
       prefix: calendar,
       name: 'Feb 29, 2020',
@@ -16,17 +16,17 @@ export default [
   },
   {
     path: 'https://frontendfreunde.ms/#talks',
-    heading: 'EcmaScript 2019 and beyond: A taste of future',
+    heading: 'Smooth as Silk: A story of animating on the web with perf in mind',
     links: [{
       prefix: calendar,
-      name: 'Nov 21, 2019',
-      path: `#`
+      name: 'Nov 20, 2019',
+      path: `https://www.meetup.com/Front-end-Forward/events/263961681/`
     }, {
       prefix: location,
-      name: 'Frontend Freunde',
-      path: `https://frontendfreunde.ms`
+      name: 'perf.now()',
+      path: `https://www.voorhoede.nl/nl/events/perf-now/`
     }],
-    description: `ES2015 was a big leap. ES2016 and 2017 had some interesting nuggets. Some of the really long awaited features landed in ES2019 and roadmap for ES2020 and beyond looks stellar. Let's go through the whirlwind of new and shiny features of EcmaScript (already landed, approved and some interesting ones but not approved yet). How the browser support looks like and how it'll make our lives easier :)`,
+    description: `Website users want a smooth and engaging experience. In this talk we'll learn how browser rendering works and how to navigate DevTools to debug animation performance issues. There are optimal practices to bear in mind that are considerably overlooked. The main reason for this to happen is devs don't get a the picture why they exist and are so vigorously advocated. DevTools are gold mine of information, we are going to explore the features that help us build animations smooth as silk.)`,
   },
     {
       path: 'https://www.slideshare.net/piyukore06/debugging-perf-with-devtools-184030862',
