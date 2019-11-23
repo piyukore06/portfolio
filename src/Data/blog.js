@@ -2,6 +2,20 @@ import { calendar, location } from './icons'
 
 export default [
   {
+    path: 'https://dev.to/piyukore06/chrome-local-overrides-1f49',
+    heading: 'Chrome Local Overrides',
+    links: [{
+      prefix: calendar,
+      name: 'Nov 23, 2019',
+      path: '#'
+    }, {
+      prefix: location,
+      name: 'dev.to',
+      path: `https://dev.to/`
+    }],
+    description: `This amazing chrome devtools feature lets you make code changes in devtools, which are persistent across page loads. 🤯 In short, it’s like having a devtools instance that doesn’t change when you reload.`,
+  },
+  {
     path: 'https://dev.to/piyukore06/5-non-tech-podcasts-you-should-listen-to-3j1o',
     heading: '5 non tech podcasts you should listen to',
     links: [{
