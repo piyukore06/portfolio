@@ -15,7 +15,7 @@ export default [
     description: `Why performance is important? and how to go about it`,
   },
   {
-    path: 'https://frontendfreunde.ms/#talks',
+    path: 'https://smooth-as-silk.netlify.com/',
     heading: 'Smooth as Silk: A story of animating on the web with perf in mind',
     links: [{
       prefix: calendar,

@@ -7,19 +7,7 @@
     import Paintings from '../Components/Painting.svelte'
 </script>
 <style>
-.avatar {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-image: url(./avatar.jpg);
-    background-size: cover;
-    background-position: -15px -15px;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-.credit {
-    font-size: 12px;
-}
+
 .new {
    font-size: 0.8em; 
 }
@@ -49,5 +37,4 @@ Upcoming Talks:
 {/if}
 <Paintings />
 
-<a class="credit normal-link" target="_blank" href="https://icons8.com">illustration by Ouch.pics</a>
 </p>
