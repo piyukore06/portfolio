@@ -1,6 +1,16 @@
 import { calendar, location } from './icons'
 export default [
   {
+    path: '#',
+    heading: 'GraphQL - The introduction you are looking for',
+    links: [{
+      prefix: calendar,
+      name: 'May, 2020',
+      path: `#`
+    }],
+    description: `Why performance is important? and how to go about it`,
+  },
+  {
     path: 'https://ng-ind.com',
     heading: 'Get you some #PerfCred?',
     links: [{

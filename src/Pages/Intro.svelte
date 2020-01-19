@@ -11,12 +11,18 @@
 .new {
    font-size: 0.8em; 
 }
+.name {
+    font-size: 1.2em;
+    font-weight: 400; 
+}
 </style>
 <div class="avatar"></div>
+<br />
+<br />
+<div class="name">Hi! I am Priyanka 👋🏻</div>
 <p>
-Hi! My name is Priyanka. I am a front-end Developer, preoccupied with finding simplest solutions.
-I'm passionate about bringing people together to build products with good user experience and using <a class="normal-link" target="_blank" href="https://www.swyx.io/writing/learn-in-public">Learn in Public</a> to share knowledge. 
-Presently diving deep into how web works, fancying all things Web Performance.
+I am a front-end Developer, preoccupied with finding simplest solutions.
+Presently diving deep into how web works, fancying all things Web Accessibility and Performance.
 <br />
 <br />
 Currently working on
@@ -29,12 +35,16 @@ Latest Post:  <a class="normal-link new" target="_blank" href={latest.path}> {la
 {#if upcoming}
 Upcoming Talks:  
 {#each upcoming as { path, heading }, i}
-<a class="normal-link new" target="_blank" href={path}> {'  '} {heading}</a>
-{i === upcoming.length - 1 ? '' : ','}
+<a class="normal-link new" target="_blank" href={path}> {heading}</a>
+{i === upcoming.length - 1 ? '' : ', '}
 {/each}
 <br>
 <br>
 {/if}
+When I'm not coding, you can find me splattering colors on a canvas 🖌 or travelling around Europe ⛰
+<br>
+<br>
+
 <Paintings />
 
 </p>

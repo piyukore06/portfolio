@@ -50,5 +50,5 @@ nav {
 <div class="container">
   <Route />
 </div>
-<div class="copyright">© 2019 Priyanka Kore</div>
+<div class="copyright">© 2020 Priyanka Kore</div>
 <Bottom></Bottom>

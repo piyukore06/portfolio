@@ -51,8 +51,6 @@
 
 </style>
 <br>
-Sometimes, I try and splatter colors on a canvas...
-<br>
 <br>
 <div class="row hide-mobile">
   <div class="column">
