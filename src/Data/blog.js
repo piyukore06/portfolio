@@ -2,6 +2,22 @@ import { calendar, location } from './icons'
 
 export default [
   {
+    path: 'https://medium.com/imgly/announcing-photoeditor-sdk-html5-v-5-0-a4d5ee8c13a9',
+    heading: 'Announcing Photo Editor SDK HTML5 5.0.0',
+    links: [
+      {
+        prefix: calendar,
+        name: 'Apr 16, 2020',
+        path: '#'
+      },
+      {
+        prefix: location,
+        name: 'medium.com',
+        path: 'medium.com'
+      }
+    ]
+  },
+  {
     path: 'https://dev.to/piyukore06/chrome-local-overrides-1f49',
     heading: 'Chrome Local Overrides',
     links: [{
