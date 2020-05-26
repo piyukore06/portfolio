@@ -1,5 +1,10 @@
 export default [
     {
+      path: 'https://photoeditorsdk.com/html5-sdk',
+      heading: 'PhotoEditor SDK',
+      description: 'The PhotoEditor you can integrate in any web application',
+    },
+    {
       path: 'https://piyukore06.github.io/2048/',
       heading: '2048',
       description: `2048 is a single-player sliding block puzzle game. The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048.`,

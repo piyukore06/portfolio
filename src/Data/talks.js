@@ -1,30 +1,6 @@
 import { calendar, location } from './icons'
 export default [
   {
-    path: '#',
-    heading: 'GraphQL - The introduction you are looking for',
-    links: [{
-      prefix: calendar,
-      name: 'May, 2020',
-      path: `#`
-    }],
-    description: `Why performance is important? and how to go about it`,
-  },
-  {
-    path: 'https://ng-ind.com',
-    heading: 'Get you some #PerfCred?',
-    links: [{
-      prefix: calendar,
-      name: 'Feb 29, 2020',
-      path: `#`
-    }, {
-      prefix: location,
-      name: 'Ng India',
-      path: `https://ng-ind.com`
-    }],
-    description: `Why performance is important? and how to go about it`,
-  },
-  {
     path: 'https://smooth-as-silk.netlify.com/',
     heading: 'Smooth as Silk: A story of animating on the web with perf in mind',
     links: [{

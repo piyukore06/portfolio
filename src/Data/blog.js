@@ -15,7 +15,8 @@ export default [
         name: 'medium.com',
         path: 'medium.com'
       }
-    ]
+    ],
+    description: ''
   },
   {
     path: 'https://dev.to/piyukore06/chrome-local-overrides-1f49',

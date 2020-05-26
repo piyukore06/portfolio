@@ -53,15 +53,15 @@ export let item
                         <img class="icon" src={prefix} alt="icon" />
                         {#if path !== '#'}
                         <a class="normal-link" target="_blank" href={path}>
-                            {name}
+                            {name || ''}
                         </a>
                         {:else}
-                        <span class="span">{name}</span>
+                        <span class="span">{name || ''}</span>
                         {/if}
                     </div>
                 {/each}
             {/if}
         </div>
-        <p>{item.description}</p>
+        <p>{item.description || ''}</p>
     </section>
 </a>
