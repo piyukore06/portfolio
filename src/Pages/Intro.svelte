@@ -32,7 +32,7 @@ Currently working on
 Latest Post:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
 <br>
 <br>
-{#if upcoming}
+{#if upcoming.length}
 Upcoming Talks:  
 {#each upcoming as { path, heading }, i}
 <a class="normal-link new" target="_blank" href={path}> {heading}</a>
