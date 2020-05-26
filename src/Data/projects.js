@@ -2,7 +2,7 @@ export default [
     {
       path: 'https://photoeditorsdk.com/html5-sdk',
       heading: 'PhotoEditor SDK',
-      description: 'The PhotoEditor you can integrate in any web application',
+      description: 'A fully customizable photo editor for your app.',
     },
     {
       path: 'https://piyukore06.github.io/2048/',

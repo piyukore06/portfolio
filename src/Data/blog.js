@@ -16,7 +16,7 @@ export default [
         path: 'medium.com'
       }
     ],
-    description: ''
+    description: 'We have some great updates to share. After a year of hard work and countless iterations, it is our utmost pleasure to announce that PhotoEditor SDK remake for HTML5 is here.'
   },
   {
     path: 'https://dev.to/piyukore06/chrome-local-overrides-1f49',
