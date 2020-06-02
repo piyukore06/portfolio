@@ -25,8 +25,7 @@ I am a front-end Developer, preoccupied with finding simplest solutions.
 Presently diving deep into how web works, fancying all things Web Accessibility and Performance.
 <br />
 <br />
-Currently working on
-<a class="normal-link" target="_blank" href="https://photoeditorsdk.com"> Photo Editor SDK</a> at <a target="_blank" class="normal-link" href="https://img.ly"> img.ly</a>
+Currently working at <a target="_blank" class="normal-link" href="https://www.adesso.de/"> Adesso</a>.
 <br>
 <br>
 Latest Post:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
