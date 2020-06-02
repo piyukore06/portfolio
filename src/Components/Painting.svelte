@@ -1,5 +1,5 @@
 <script>
-    const imgs = Array.from(Array(6)).map((_, i) => ('./' + (i) + '.jpg'))
+    const imgs = Array.from(Array(8)).map((_, i) => ('./' + (i) + '.jpg'))
 </script>
 <style>
 
@@ -54,25 +54,29 @@
 <br>
 <div class="row hide-mobile">
   <div class="column">
+    <img src="7.jpg" alt="">
     <img src="0.jpg" alt="">
-    <img src="1.jpg" alt="">
+    <img src="2.jpg" alt="">
   </div>
   <div class="column">
     <img src="3.jpg" alt="">
-    <img src="4.jpg" alt="">
-  </div>
-   <div class="column">
-    <img src="2.jpg" alt="">
+    <img src="1.jpg" alt="">
     <img src="5.jpg" alt="">
+  </div>
+  <div class="column">
+    <img src="8.jpg" alt="">
+    <img src="4.jpg" alt="">
   </div>
 </div>
 <div class="row show-mobile">
   <div class="column">
+    <img src="7.jpg" alt="">
     <img src="0.jpg" alt="">
     <img src="1.jpg" alt="">
     <img src="3.jpg" alt="">
   </div>
    <div class="column">
+   <img src="8.jpg" alt="">
     <img src="4.jpg" alt="">
     <img src="2.jpg" alt="">
     <img src="5.jpg" alt="">
