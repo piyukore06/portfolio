@@ -14,4 +14,9 @@ export default [
         heading: 'Generative Art',
         description: `"Generative art" often refers to algorithmic art (algorithmically determined computer generated artwork), but artists can also make it using systems of chemistry, biology, mechanics and robotics, smart materials, manual randomization, mathematics, data mapping, symmetry, tiling, and more.`,
     },
+    {
+      path: 'https://github.com/piyukore06/awesome-web-perf',
+      heading: 'Awesome web perf collection',
+      description: 'One stop shop for all of your perf problems!!'
+    }
   ]
