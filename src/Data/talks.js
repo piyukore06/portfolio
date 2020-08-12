@@ -1,6 +1,30 @@
 import { calendar, location } from './icons'
 export default [
   {
+    path: '#',
+    heading: 'Workshop: HTML and CSS for Backend Developers',
+    links: [{
+      prefix: calendar,
+      name: 'Sep 01, 2020',
+      path: `https://javascript-days.de/fundamentals/css-grundlagenkurs-teil-1/`
+    }, {
+      prefix: location,
+      name: 'JS Days Munich',
+      path: `https://javascript-days.de`
+    },
+    {
+      prefix: calendar,
+      name: 'Oct 05, 2020',
+      path: `https://javascript-days.de/fundamentals/css-grundlagenkurs-teil-1/`
+    },
+    {
+      prefix: location,
+      name: 'JS Days Berlin',
+      path: `https://javascript-days.de`
+    }],
+    description: ``,
+  },
+  {
     path: 'https://smooth-as-silk.netlify.com/',
     heading: 'Smooth as Silk: A story of animating on the web with perf in mind',
     links: [{
