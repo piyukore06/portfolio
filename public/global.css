@@ -34,33 +34,67 @@ svg {
 	width: 28px;
 }
 
+@-webkit-keyframes rollIn {
+	0% { 
+	   opacity: 0; 
+	   -webkit-transform: translateX(-300%) rotate(-180deg); 
+	}
+	100% { 
+	   opacity: 1; 
+	   -webkit-transform: translateX(0px) rotate(0deg); 
+	}
+ }
+ 
+ @keyframes rollIn {
+	0% { 
+	   opacity: 0; 
+	   transform: translateX(-300%) rotate(-180deg); 
+	}
+	100% { 
+	   opacity: 1; 
+	   transform: translateX(0px) rotate(0deg); 
+	}
+ }
+
+ .rollIn {
+	-webkit-animation-name: rollIn;
+	animation-name: rollIn;
+	backface-visibility: hidden;
+	perspective: 1000;
+ }
+
 .avatar {
+	margin: 0 auto;
+	position: relative;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	width: 210px;
+	height: 210px;
+	display: block;
+	background: #642B73;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(198, 66, 110, 0.7), rgba(100, 43, 115, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(198, 66, 110, 0.7), rgba(100, 43, 115, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 50%;
+}
+
+.avatar-background {
+	position: absolute;
 	height: 200px;
 	width: 200px;
+	left: 5px;
+    top: 5px;
 	border-radius: 50%;
 	background-image: url(./image.jpg);
 	background-size: cover;
 	background-position: 0px -150px;
 	background-repeat: no-repeat;
-	margin: 0 auto;
-	position: relative;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
-
-.avatar::after {
-	content: '';
-  position: absolute;
-  z-index: -1;
-  width: 210px;
-  height: 210px;
-  display: block;
-  margin: -5px;
-	background: #642B73;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(198, 66, 110, 0.7), rgba(100, 43, 115, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(198, 66, 110, 0.7), rgba(100, 43, 115, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 50%;
-}
-
-
 
 body {
 	margin: 0;

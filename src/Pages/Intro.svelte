@@ -16,7 +16,9 @@
     font-weight: 400; 
 }
 </style>
-<div class="avatar"></div>
+<div class="avatar rollIn">
+    <div class="avatar-background"></div>
+</div>
 <br />
 <br />
 <div class="name">Hi! I am Priyanka 👋🏻</div>
