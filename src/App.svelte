@@ -61,5 +61,5 @@
   <Route />
 </div>
 <div class="copyright">© 2021 Priyanka Kore</div>
-<div class="love">Made with ☕️</div>
+<div class="love">Made with ♥️</div>
 <Bottom />
