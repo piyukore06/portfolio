@@ -11,7 +11,8 @@ export default [
       prefix: location,
       name: 'Adesso',
       path: 'https://www.adesso.de/de/index.jsp'
-    }]
+    }],
+    description: `Looking for a Tool to write E2E, well look no further, the most aweosme features of Cypress make it so easy to write and debug e2e tests as hassel free as you can imagine :)`
   },
   {
     path: '#',
@@ -24,7 +25,8 @@ export default [
       prefix: location,
       name: 'Adesso',
       path: 'https://www.adesso.de/de/index.jsp'
-    }]
+    }],
+    description: `Nowadays TypeScript is a must in the world of JavaScript. Many of it's features go unnoticed. This is an attempt to bring most important typescript features in one place`
   },
   {
     path: '#',
@@ -119,20 +121,6 @@ export default [
       path: `https://www.meetup.com/Softwerkskammer-Ruhrgebiet/events/252665300/`
     }],
     description: 'Frontend tooling just keeps getting better. Module bundlers can do so much for you. Be it providing you with a wonderful dev experience or optimizing your production build.'
-  },
-  {
-    path: 'http://introduction-cypress-js.surge.sh',
-    heading: 'Cypress JS: E2E done right',
-    links: [{
-      prefix: calendar,
-      name: 'Aug 23, 2018',
-      path: `#`
-    }, {
-      prefix: location,
-      name: 'Mehrkanal GmbH',
-      path: `http://mehrkanal.com/`
-    }],
-    description: 'Looking for a Tool to write E2E, well look no further, the most aweosme features of Cypress make it so easy to write and debug e2e tests as hassel free as you can imagine :)'
   },
   {
     path: 'https://github.com/piyukore06/create-a-webpack-plugin',
