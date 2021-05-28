@@ -1,6 +1,16 @@
 import { calendar, location } from './icons'
 export default [
   {
+    path: 'https://www.youtube.com/watch?v=IHkHkoRiFLM&t=1576s',
+    heading: 'Cypress IO: Shopware Contributing to Open Source',
+    links: [{
+      prefix: calendar,
+      name: 'May 26, 2021',
+      path: 'https://www.youtube.com/watch?v=IHkHkoRiFLM&t=1576s'
+    }],
+    description: 'In this NCA(Never Code alone) Live Coding session, we will contribute to the open source Cypress IO tests for Shopware Core. Four of us will work together on the Javascript Testing Framework. We have already done a testing session with Ramona. As a developer in the Shopware Core team, she has been improving and developing the test suite for a long time. And this time we will be joined by Priyanka and Tobias, both of whom have also specialized in Cypress IO testing for quite some time. The goal of the session is to deepen the common knowledge and to share it with the community. On this occasion we will also put a pull request on GitHub and show how everyone can join and help.'
+  },
+  {
     path: '#',
     heading: 'Introduction to Cypress',
     links: [{

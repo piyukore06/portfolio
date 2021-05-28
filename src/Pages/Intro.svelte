@@ -2,7 +2,7 @@
     import blog from '../Data/blog.js'
     import talks from '../Data/talks.js'
     const upcoming = talks.map((t) => ({...t, date: t.links[0].name})).filter((d) => (new Date() < new Date(d.date)))
-    let latest = blog[0]
+    let latest = talks[0]
 
     import Paintings from '../Components/Painting.svelte'
 </script>
@@ -30,7 +30,7 @@ Presently diving deep into how web works, fancying all things Web Accessibility 
 Currently working at <a target="_blank" class="normal-link" href="https://www.adesso.de/"> Adesso</a>.
 <br>
 <br>
-Latest Post:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
+Latest Speaking:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
 <br>
 <br>
 {#if upcoming.length}

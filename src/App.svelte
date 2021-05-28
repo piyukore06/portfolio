@@ -55,7 +55,7 @@
   <Link page={{ path: '/', name: 'About' }} />
   <Link page={{ path: '/work', name: 'Work' }} />
   <Link page={{ path: '/blog', name: 'Blog' }} />
-  <Link page={{ path: '/talks', name: 'Talks' }} />
+  <Link page={{ path: '/talks', name: 'Speaking' }} />
 </nav>
 <div class="container">
   <Route />
