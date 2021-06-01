@@ -1,6 +1,20 @@
 import { calendar, location } from './icons'
 export default [
   {
+    path: '#',
+    heading: 'How to be a Devtools Ninja (F12)',
+    links: [{
+      prefix: calendar,
+      name: 'June 8, 2021',
+      path: '#'
+    }, {
+      prefix: location,
+      name: 'Software Development @ Adesso NL',
+      path: 'https://www.meetup.com/Software-Development-adesso-NL/events/278534539/'
+    }],
+    description: 'Devtools make our lives sooo easy. But are you using the developer tools to their full potential? Most of the devtool features/tabs remain undiscovered. We go about our regular developer lives without knowing these amazing tools present in out toolkit. We are going to go about some of cool lesser-known features and find out how can we integrate this in our workflow easily to get the most out of devtools.'
+  },
+  {
     path: 'https://www.youtube.com/watch?v=IHkHkoRiFLM&t=1576s',
     heading: 'Cypress IO: Shopware Contributing to Open Source',
     links: [{

@@ -30,18 +30,17 @@ Presently diving deep into how web works, fancying all things Web Accessibility 
 Currently working at <a target="_blank" class="normal-link" href="https://www.adesso.de/"> Adesso</a>.
 <br>
 <br>
-Latest Speaking:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
-<br>
-<br>
 {#if upcoming.length}
 Upcoming Talks:  
 {#each upcoming as { path, heading }, i}
 <a class="normal-link new" target="_blank" href={path}> {heading}</a>
 {i === upcoming.length - 1 ? '' : ', '}
 {/each}
-<br>
-<br>
+{:else}
+Latest Speaking:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
 {/if}
+<br>
+<br>
 When I'm not coding, you can find me splattering colors on a canvas 🖌 or travelling around Europe ⛰
 <br>
 <br>
