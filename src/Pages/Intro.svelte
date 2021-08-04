@@ -2,7 +2,7 @@
     import blog from '../Data/blog.js'
     import talks from '../Data/talks.js'
     const upcoming = talks.map((t) => ({...t, date: t.links[0].name})).filter((d) => (new Date() < new Date(d.date)))
-    let latest = talks[0]
+    let latest = blog[0]
 
     import Paintings from '../Components/Painting.svelte'
 </script>
@@ -15,6 +15,78 @@
     font-size: 1.2em;
     font-weight: 400; 
 }
+
+@-webkit-keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-300%) rotate(-180deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px) rotate(0deg);
+  }
+}
+
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-300%) rotate(-180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+.avatar {
+  margin: 0 auto;
+  position: relative;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width: 210px;
+  height: 210px;
+  display: block;
+  background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(198, 66, 110, 0.7),
+    rgba(100, 43, 115, 0.7)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(198, 66, 110, 0.7),
+    rgba(100, 43, 115, 0.7)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 50%;
+}
+
+.avatar-background {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 5px;
+  top: 5px;
+  border-radius: 50%;
+  background-image: url(./image.jpg);
+  background-size: cover;
+  background-position: 0px -150px;
+  background-repeat: no-repeat;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
 </style>
 <div class="avatar rollIn">
     <div class="avatar-background"></div>
@@ -22,7 +94,7 @@
 <br />
 <br />
 <div class="name">Hi! I am Priyanka 👋🏻</div>
-<p>
+
 I am a front-end Developer, preoccupied with finding simplest solutions.
 Presently diving deep into how web works, fancying all things Web Accessibility and Performance.
 <br />
@@ -31,13 +103,13 @@ Currently working at <a target="_blank" class="normal-link" href="https://www.ad
 <br>
 <br>
 {#if upcoming.length}
-Upcoming Talks:  
-{#each upcoming as { path, heading }, i}
-<a class="normal-link new" target="_blank" href={path}> {heading}</a>
-{i === upcoming.length - 1 ? '' : ', '}
-{/each}
+    Upcoming Talks:  
+    {#each upcoming as { path, heading }, i}
+    <a class="normal-link new" target="_blank" href={path}> {heading}</a>
+    {i === upcoming.length - 1 ? '' : ', '}
+    {/each}
 {:else}
-Latest Speaking:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
+    Latest Blogpost:  <a class="normal-link new" target="_blank" href={latest.path}> {latest.heading}</a>
 {/if}
 <br>
 <br>
@@ -45,6 +117,6 @@ When I'm not coding, you can find me splattering colors on a canvas 🖌 or trav
 <br>
 <br>
 
-<Paintings />
+<div class="separator"></div>
 
-</p>
+<Paintings />

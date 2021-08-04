@@ -29,22 +29,7 @@
     font-weight: 400;
     margin-bottom: 40px;
   }
-  .copyright {
-    font-size: 12px;
-    position: fixed;
-    bottom: calc(var(--frameHeight) - 20px);
-    left: 30px;
-    z-index: 1000;
-  }
-
-  .love {
-    font-size: 12px;
-    position: fixed;
-    bottom: calc(var(--frameHeight) - 45px);
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-  }
+ 
 </style>
 
 <Social />
@@ -60,6 +45,5 @@
 <div class="container">
   <Route />
 </div>
-<div class="copyright">© 2021 Priyanka Kore</div>
-<div class="love">Made with ♥️</div>
+
 <Bottom />
