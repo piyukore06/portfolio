@@ -2,6 +2,40 @@ import { calendar, location } from './icons'
 
 export default [
   {
+    path: 'https://jaxenter.com/women-in-tech-shete-174752.html',
+    heading: 'Interview: Women in Tech',
+    links: [
+      {
+        prefix: calendar,
+        name: 'Jun 19, 2021',
+        path: '#'
+      },
+      {
+        prefix: location,
+        name: 'jaxenter.com',
+        path: 'jaxenter.com'
+      }
+    ],
+    description: 'Four years ago, we launched a diversity series aimed at bringing the most inspirational and powerful women in the tech scene to your attention. Today, we’d like you to meet Priyanka Shete, Senior Software Engineer at adesso.'
+  },
+  {
+    path: 'https://entwickler.de/webdesign/houdini-hausgemachte-css-magie-001',
+    heading: 'Houdini Hausgemachte CSS Magie',
+    links: [
+      {
+        prefix: calendar,
+        name: 'Jun 19, 2021',
+        path: '#'
+      },
+      {
+        prefix: location,
+        name: 'entwickler.de',
+        path: 'entwickler.de'
+      }
+    ],
+    description: 'CSS wirkt manchmal fast schon magisch. Aber auch die besten Zaubertricks stoßen an ihre Grenzen, wenn man etwas erreichen möchte, das noch in keiner Formel beschrieben wurde. Im Fall von CSS gibt es aber Abhilfe: Houdini erlaubt die Definition eigener Funktionen.'
+  },
+  {
     path: 'https://medium.com/imgly/announcing-photoeditor-sdk-html5-v-5-0-a4d5ee8c13a9',
     heading: 'Announcing Photo Editor SDK HTML5 5.0.0',
     links: [
