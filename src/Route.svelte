@@ -12,6 +12,4 @@
 <style>
 </style>
 
-<div class="main-container">
-  <svelte:component this={component} />
-</div>
+<svelte:component this={component} />

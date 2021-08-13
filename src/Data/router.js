@@ -2,6 +2,7 @@ import Home from '../Pages/Intro.svelte';
 import Blog from '../Pages/Blog.svelte';
 import Talks from '../Pages/Talks.svelte';
 import Work from '../Pages/Work.svelte';
+import Traveling from '../Pages/Traveling.svelte';
 
 export default [
   {
@@ -23,5 +24,10 @@ export default [
     path: '/work',
     name: 'Work',
     component: Work,
+  },
+  {
+    path: '/traveling',
+    name: 'Traveling',
+    component: Traveling,
   }
 ]

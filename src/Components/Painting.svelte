@@ -19,11 +19,17 @@
 }
 
 .column img {
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   margin-top: 8px;
   vertical-align: middle;
   width: 85%;
-  border: 15px solid transparent;
+  border:solid 1px #41403E;
+}
+@media screen and (max-width: 480px) {
+ .column img {
+    border: none;
+ }
 }
 .show-mobile {
   display: none;

@@ -23,8 +23,8 @@
     font-family: Quicksand;
     margin-left: auto;
     margin-right: auto;
-    max-width: 42rem;
-    padding: 2.625rem 1.3125rem;
+    max-width: 50rem;
+    padding: 4rem 1.3125rem;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -41,6 +41,7 @@
   <Link page={{ path: '/work', name: 'Work' }} />
   <Link page={{ path: '/blog', name: 'Blog' }} />
   <Link page={{ path: '/talks', name: 'Speaking' }} />
+  <!-- <Link page={{ path: '/traveling', name: 'Travel Diary' }} /> -->
 </nav>
 <div class="container">
   <Route />

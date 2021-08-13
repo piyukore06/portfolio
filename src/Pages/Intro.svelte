@@ -13,7 +13,8 @@
 }
 .name {
     font-size: 1.2em;
-    font-weight: 400; 
+    font-weight: 400;
+    padding-bottom: 10px;
 }
 
 @-webkit-keyframes rollIn {
