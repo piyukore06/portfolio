@@ -2,6 +2,23 @@ import { calendar, location } from './icons'
 
 export default [
   {
+    path: 'https://www.informatik-aktuell.de/entwicklung/methoden/flame-charts-und-wie-man-sie-liest.html',
+    heading: 'How to read flame charts',
+    links: [
+      {
+        prefix: calendar,
+        name: 'Aug 17, 2021',
+        path: '#'
+      },
+      {
+        prefix: location,
+        name: 'informatik-aktuell.de',
+        path: 'informatik-aktuell.de'
+      }
+    ],
+    description: 'Der Performance Tab in Chrome DevTools ist berüchtigt dafür, schwer verständlich zu sein. Es gibt eine Fülle von Informationen über jedes kleine Stück Code und wiederum die Auswirkungen auf die jeweilige App. Das kann nützlich für das Identifizieren von Problemen sein, aber ebenso komplex. In diesem Artikel wird der Performance Tab mit Fokus auf Flame Charts erläutert und Schritt für Schritt unter die Lupe.'
+  },
+  {
     path: 'https://jaxenter.com/women-in-tech-shete-174752.html',
     heading: 'Interview: Women in Tech',
     links: [
