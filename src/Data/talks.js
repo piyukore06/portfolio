@@ -1,6 +1,48 @@
 import { calendar, location } from './icons'
 export default [
   {
+    path: 'https://js-i-love-you.netlify.app/',
+    heading: 'JS I love you ♥️',
+    links: [{
+      prefix: calendar,
+      name: 'Sep 14, 2021 - Nov 14, 2021',
+      path: '#'
+    }, {
+      prefix: location,
+      name: 'Ready to code, Stuttgart',
+      path: 'https://readytocode.org/event-js-i-love-you.html'
+    }],
+    description: 'Nach ersten Erfolgserlebnissen mit Cypress, stößt man bald auch auf erste Herausforderungen. Wir zeigen mit welchen Pattern man diesen begegnen kann und welche Probleme sogar schon auf erste Unzulänglichkeiten der Anwendung zurückzuführen sind. Die Schritte um Cypress in eine automatische Buildpipeline einzuführen sind essentiell um das Tool wertschöpfend einzusetzen und somit Teil des Workshops. Wir behandeln auch schwierige Testumgebungen die kein stringentes E2E-Testing erlauben.'
+  },
+  {
+    path: '#',
+    heading: 'Advanced cypress testing patterns',
+    links: [{
+      prefix: calendar,
+      name: 'Oct 6, 2021',
+      path: '#'
+    }, {
+      prefix: location,
+      name: 'JS Days 2021',
+      path: 'https://javascript-days.de/angular/cypress-advanced-testing-patterns/'
+    }],
+    description: 'Nach ersten Erfolgserlebnissen mit Cypress, stößt man bald auch auf erste Herausforderungen. Wir zeigen mit welchen Pattern man diesen begegnen kann und welche Probleme sogar schon auf erste Unzulänglichkeiten der Anwendung zurückzuführen sind. Die Schritte um Cypress in eine automatische Buildpipeline einzuführen sind essentiell um das Tool wertschöpfend einzusetzen und somit Teil des Workshops. Wir behandeln auch schwierige Testumgebungen die kein stringentes E2E-Testing erlauben.'
+  },
+  {
+    path: '#',
+    heading: 'Getting Into Cypress',
+    links: [{
+      prefix: calendar,
+      name: 'Oct 4, 2021',
+      path: '#'
+    }, {
+      prefix: location,
+      name: 'JS Days 2021',
+      path: 'https://javascript-days.de/fundamentals/getting-into-cypress-e2e-testing-fuer-alle/'
+    }],
+    description: 'Cypress hat sehr niedrige Einstiegshürden, um mit E2E-Testing zu beginnen. Die Unabhängigkeit von Frameworks macht es zu einem Allzweck Tool, wenn es ums Testing geht. Warum dies so ist, wie Tests endlich stabiler laufen und wie sich E2E-Testing auch in bestehende Projekte einbringen lässt zeigen wir in diesen Workshop. Die Teilnehmenden lernen Cypress und E2E-Testing kennen, üben die Einrichtung und werden durch die ersten Testcases geführt. Zu guter Letzt zeigen wir, wie man auch TypeScript statt JavaScript nutzen kann.'
+  },
+  {
     path: '#',
     heading: 'How to be a Devtools Ninja (F12)',
     links: [{
