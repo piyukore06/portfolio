@@ -12,7 +12,7 @@ export default [
       name: 'Ready to code, Stuttgart',
       path: 'https://readytocode.org/event-js-i-love-you.html'
     }],
-    description: 'Nach ersten Erfolgserlebnissen mit Cypress, stößt man bald auch auf erste Herausforderungen. Wir zeigen mit welchen Pattern man diesen begegnen kann und welche Probleme sogar schon auf erste Unzulänglichkeiten der Anwendung zurückzuführen sind. Die Schritte um Cypress in eine automatische Buildpipeline einzuführen sind essentiell um das Tool wertschöpfend einzusetzen und somit Teil des Workshops. Wir behandeln auch schwierige Testumgebungen die kein stringentes E2E-Testing erlauben.'
+    description: 'JS: I love you ist eine JavaScript-Workshop-Reihe, bei der ihr zum einen JavaScript-Grundlagen lernt und zum anderen die Frontend-Entwicklung mit React kennenlernt. Gegen Ende dürft ihr im Rahmen es kleinen Projektes eure eigene Portfolioseite gestalten. Programmier-Vorkenntnisse braucht ihr keine, ihr solltet aber grundlegende Computer-Kenntnisse haben (z.B. wissen, wie man Programme installiert). Vor der ersten Stunde bekommt ihr allerdings noch eine Installationsanweisung für alle benötigten Programme.'
   },
   {
     path: '#',
