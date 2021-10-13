@@ -79,7 +79,7 @@
   border-radius: 50%;
   background-image: url(./image.jpg);
   background-size: cover;
-  background-position: 0px -150px;
+  background-position: 0px -100px;
   background-repeat: no-repeat;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -114,7 +114,7 @@ Currently working at <a target="_blank" class="normal-link" href="https://www.ad
 {/if}
 <br>
 <br>
-When I'm not coding, you can find me splattering colors on a canvas 🖌 or travelling around Europe ⛰
+When I'm not coding, you can find me striking a yoga pose 🧘🏻‍♀️ or splattering colors on a canvas 🖌 
 <br>
 <br>
 

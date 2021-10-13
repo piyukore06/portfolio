@@ -23,6 +23,10 @@ export let item
             ) 1 100%;
         border-color: #642B73;  /* fallback for old browsers */
     }
+    h3 {
+        font-weight: 100;
+        color: #C6426E;
+    }
     .secondary {
         color: rgba(34, 34, 34, 0.5);
         font-size: 13px;
