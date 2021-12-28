@@ -23,5 +23,10 @@ export default [
     path: 'https://curious-cases.netlify.app/',
     heading: 'Curious Cases',
     description: 'One stop shop for case conversions in JavaScript',
+  },
+  {
+    path: 'https://minesweeper101.netlify.app/',
+    heading: 'Minesweeper',
+    description: 'Implementation of minesweeper game',
   }
 ]
