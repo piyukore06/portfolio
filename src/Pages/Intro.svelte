@@ -98,6 +98,8 @@
 
 I am a front-end Developer, preoccupied with finding simplest solutions.
 <br />
+<br />
+<br />
 <strong>🚀 Passionate About Performance</strong>
 As a frontend developer, I'm on a mission to make the web faster and more efficient. I believe that exceptional user experiences start with blazing-fast web applications. My work is dedicated to optimizing performance, enhancing loading times, and ensuring seamless interactions for users.
 <br />
