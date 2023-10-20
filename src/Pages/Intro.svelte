@@ -97,7 +97,21 @@
 <div class="name">Hi! I am Priyanka 👋🏻</div>
 
 I am a front-end Developer, preoccupied with finding simplest solutions.
-Presently diving deep into how web works, fancying all things Web Accessibility and Performance.
+<br />
+<strong>🚀 Passionate About Performance</strong>
+As a frontend developer, I'm on a mission to make the web faster and more efficient. I believe that exceptional user experiences start with blazing-fast web applications. My work is dedicated to optimizing performance, enhancing loading times, and ensuring seamless interactions for users.
+<br />
+<br />
+<strong>💡 Advocate for Knowledge Sharing</strong>
+I'm not just a developer; I'm a firm believer in the power of sharing knowledge. Whether I'm giving talks at industry events or writing blog posts on the latest web technologies, I'm committed to helping others learn and grow in the field. Together, we can make the web a better place.
+<br />
+<br />
+<strong>🚀 Let's Elevate the Web Together</strong>
+Join me in the quest for a faster, more accessible web. Whether you're a fellow developer or a curious learner, let's connect, collaborate, and explore the exciting world of frontend development and performance optimization.
+<br />
+<br />
+<strong>📬 Contact Me</strong>
+Feel free to reach out to me at my social media handles. I'm always eager to engage in meaningful discussions, share ideas, and contribute to the vibrant developer community.
 <br />
 <br />
 Currently working at <a target="_blank" class="normal-link" href="https://www.adesso.de/"> Adesso</a>.
